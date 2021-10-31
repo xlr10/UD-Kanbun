@@ -2,8 +2,8 @@ import setuptools
 import subprocess
 import platform
 
-with open("README.md","r",encoding="utf-8") as r:
-  long_description=r.read()
+#with open("README.md","r",encoding="utf-8") as r:
+#  long_description=r.read()
 URL="https://github.com/KoichiYasuoka/UD-Kanbun"
 
 pl=platform.platform()
@@ -26,8 +26,8 @@ setuptools.setup(
   name="udkanbun",
   version="3.3.0",
   description="Tokenizer POS-tagger and Dependency-parser for Classical Chinese",
-  long_description=long_description,
-  long_description_content_type="text/markdown",
+  #long_description=long_description,
+  #long_description_content_type="text/markdown",
   url=URL,
   author="Koichi Yasuoka",
   author_email="yasuoka@kanji.zinbun.kyoto-u.ac.jp",
